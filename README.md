@@ -6,3 +6,5 @@ These values will be broadcast as the beacon 'Major' and 'Minor' values.
 ```
 ./advertise_beacon.sh 00 01
 ```
+
+The hex value for the room numbers can be retrieved from the [backend](https://github.com/colmlg/sign-in-backend) endpoint `/rooms?hex=true`
